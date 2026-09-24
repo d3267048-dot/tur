@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Контакты — Wanderly</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html">wander<span>ly</span><i>.</i></a
+      ><button class="menu-toggle" aria-label="Menu">
+        <span></span><span></span>
+      </button>
+      <nav class="main-nav">
+        <a href="index.html" data-i18n="nav.home">Главная</a
+        ><a href="destinations.html" data-i18n="nav.destinations">Направления</a
+        ><a href="about.html" data-i18n="nav.about">О нас</a
+        ><a href="journal.html" data-i18n="nav.journal">Журнал</a
+        ><a class="active" href="contact.html" data-i18n="nav.contact"
+          >Контакты</a
+        >
+      </nav>
+      <div class="header-tools">
+        <button class="lang-switch" data-lang-toggle>EN</button
+        ><a class="round-arrow" href="contact.html">↗</a>
+      </div>
+    </header>
+    <main>
+      <section class="contact-page section">
+        <div class="contact-intro reveal">
+          <div class="section-tag">01 — Say hello</div>
+          <h1 data-i18n="contact.title">Начнём<br /><em>с твоей мечты.</em></h1>
+          <p data-i18n="contact.lead">
+            Расскажи, куда давно хочется. Мы превратим желание в маршрут,
+            который подойдёт именно тебе.
+          </p>
+          <div class="contact-details">
+            <span>hello@wanderly.travel</span><span>+7 495 123 45 67</span
+            ><span>Москва · Лиссабон · Везде</span>
+          </div>
+        </div>
+        <form class="contact-form reveal">
+          <label
+            ><span data-i18n="contact.name">Имя</span
+            ><input required type="text" placeholder="Alex Morgan" /></label
+          ><label
+            ><span data-i18n="contact.email">Email</span
+            ><input required type="email" placeholder="alex@email.com" /></label
+          ><label
+            ><span data-i18n="contact.destination">Куда хочешь?</span
+            ><input
+              type="text"
+              placeholder="Japan, Portugal..."
+              data-i18n-placeholder="contact.placeholder" /></label
+          ><label
+            ><span data-i18n="contact.message">Расскажи немного</span
+            ><textarea
+              rows="4"
+              placeholder="Your idea of a perfect journey..."
+            ></textarea></label
+          ><button class="button button-dark" type="submit">
+            <span data-i18n="contact.send">Отправить запрос</span> ↗</button
+          ><small class="form-status"></small>
+        </form>
+      </section>
+      <section class="contact-map">
+        <div class="map-copy">
+          <span>WANDERLY HQ</span><strong>52°31' N<br />13°24' E</strong>
+          <p data-i18n="contact.office">
+            Наш виртуальный офис всегда там, где начинается следующая поездка.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="brand">wander<span>ly</span><i>.</i></div>
+      <p data-i18n="footer.text">Путешествия, созданные для тебя.</p>
+      <div>
+        <a href="contact.html">Instagram</a><a href="contact.html">Telegram</a>
+      </div>
+      <small>© 2024 Wanderly</small>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

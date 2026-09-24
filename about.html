@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>О Wanderly</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html">wander<span>ly</span><i>.</i></a
+      ><button class="menu-toggle" aria-label="Menu">
+        <span></span><span></span>
+      </button>
+      <nav class="main-nav">
+        <a href="index.html" data-i18n="nav.home">Главная</a
+        ><a href="destinations.html" data-i18n="nav.destinations">Направления</a
+        ><a class="active" href="about.html" data-i18n="nav.about">О нас</a
+        ><a href="journal.html" data-i18n="nav.journal">Журнал</a
+        ><a href="contact.html" data-i18n="nav.contact">Контакты</a>
+      </nav>
+      <div class="header-tools">
+        <button class="lang-switch" data-lang-toggle>EN</button
+        ><a class="round-arrow" href="contact.html">↗</a>
+      </div>
+    </header>
+    <main>
+      <section class="inner-hero about-hero">
+        <div class="hero-overlay"></div>
+        <div class="inner-hero-content reveal">
+          <p class="kicker">01 — Our story</p>
+          <h1 data-i18n="about.title">
+            Ездить далеко.<br /><em>Чувствовать глубоко.</em>
+          </h1>
+        </div>
+      </section>
+      <section class="section about-intro reveal">
+        <div class="section-tag">
+          02 — <span data-i18n="about.tag">Наша философия</span>
+        </div>
+        <div>
+          <h2 data-i18n="about.heading">
+            Мы верим,<br /><em>что путь важнее точки.</em>
+          </h2>
+          <p class="intro-text" data-i18n="about.text">
+            Wanderly появился из любви к медленным утрам в незнакомых городах,
+            разговорам с людьми, которых ты встретил случайно, и маршрутам,
+            которые невозможно найти в стандартном туре.
+          </p>
+        </div>
+      </section>
+      <section class="values-section">
+        <div class="section values-grid">
+          <div class="section-tag">03 — Values</div>
+          <div class="values">
+            <article>
+              <b>01</b>
+              <h3 data-i18n="about.value1">Любопытство</h3>
+              <p data-i18n="about.value1Text">
+                Мы всегда ищем следующий поворот за пределами очевидного.
+              </p>
+            </article>
+            <article>
+              <b>02</b>
+              <h3 data-i18n="about.value2">Осознанность</h3>
+              <p data-i18n="about.value2Text">
+                Путешествуем с уважением к местам, людям и планете.
+              </p>
+            </article>
+            <article>
+              <b>03</b>
+              <h3 data-i18n="about.value3">Красота</h3>
+              <p data-i18n="about.value3Text">
+                Верим, что внимание к деталям превращает поездку в память.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="team-section section">
+        <div class="section-heading">
+          <div>
+            <div class="section-tag">04 — People</div>
+            <h2 data-i18n="about.team">Люди<br /><em>за кадром.</em></h2>
+          </div>
+          <p class="section-note" data-i18n="about.teamText">
+            Маленькая команда с большими картами на стене.
+          </p>
+        </div>
+        <div class="team-grid">
+          <div class="team-card team-one">
+            <strong>Elena<br />Morozova</strong><span>Founder / Curator</span>
+          </div>
+          <div class="team-card team-two">
+            <strong>Max<br />Laurent</strong><span>Route designer</span>
+          </div>
+          <div class="team-card team-three">
+            <strong>Amir<br />Rahman</strong><span>Local guide</span>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="brand">wander<span>ly</span><i>.</i></div>
+      <p data-i18n="footer.text">Путешествия, созданные для тебя.</p>
+      <div>
+        <a href="contact.html">Instagram</a><a href="contact.html">Telegram</a>
+      </div>
+      <small>© 2024 Wanderly</small>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
