@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Журнал — Wanderly</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html">wander<span>ly</span><i>.</i></a
+      ><button class="menu-toggle" aria-label="Menu">
+        <span></span><span></span>
+      </button>
+      <nav class="main-nav">
+        <a href="index.html" data-i18n="nav.home">Главная</a
+        ><a href="destinations.html" data-i18n="nav.destinations">Направления</a
+        ><a href="about.html" data-i18n="nav.about">О нас</a
+        ><a class="active" href="journal.html" data-i18n="nav.journal">Журнал</a
+        ><a href="contact.html" data-i18n="nav.contact">Контакты</a>
+      </nav>
+      <div class="header-tools">
+        <button class="lang-switch" data-lang-toggle>EN</button
+        ><a class="round-arrow" href="contact.html">↗</a>
+      </div>
+    </header>
+    <main>
+      <section class="journal-heading section">
+        <div class="section-tag">01 — Wanderly journal</div>
+        <h1 data-i18n="journal.title">
+          Истории,<br /><em>которые хочется сохранить.</em>
+        </h1>
+        <p data-i18n="journal.lead">
+          Заметки о местах, людях и ощущениях, ради которых мы собираем чемодан.
+        </p>
+      </section>
+      <section class="section section-paper journal-grid">
+        <article class="journal-feature reveal">
+          <div class="journal-image journal-kyoto"></div>
+          <div class="journal-copy">
+            <span>FIELD NOTES / 08.04.24</span>
+            <h2 data-i18n="journal.article1">
+              Почему мы всё ещё<br /><em>возвращаемся в Киото</em>
+            </h2>
+            <p data-i18n="journal.article1Text">
+              Город, который никогда не показывает всё сразу. Три утра, семь
+              переулков и один идеальный чайный дом.
+            </p>
+            <a class="text-link" href="contact.html"
+              ><span data-i18n="journal.read">Читать историю</span> <b>↗</b></a
+            >
+          </div>
+        </article>
+        <div class="journal-side">
+          <article class="journal-small reveal">
+            <div class="journal-image journal-surf"></div>
+            <div>
+              <span>GUIDE / 22.03.24</span>
+              <h3 data-i18n="journal.article2">
+                Пять пляжей Португалии, где время не спешит
+              </h3>
+              <a class="text-link" href="contact.html">Read <b>↗</b></a>
+            </div>
+          </article>
+          <article class="journal-small reveal">
+            <div class="journal-image journal-marrakech"></div>
+            <div>
+              <span>PEOPLE / 11.02.24</span>
+              <h3 data-i18n="journal.article3">
+                Утро с Мариам на рынке Марракеша
+              </h3>
+              <a class="text-link" href="contact.html">Read <b>↗</b></a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="brand">wander<span>ly</span><i>.</i></div>
+      <p data-i18n="footer.text">Путешествия, созданные для тебя.</p>
+      <div>
+        <a href="contact.html">Instagram</a><a href="contact.html">Telegram</a>
+      </div>
+      <small>© 2024 Wanderly</small>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
